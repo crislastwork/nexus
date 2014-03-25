@@ -1,0 +1,366 @@
+
+/** fonts **/
+
+body{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    color: #848484;
+    margin: 0px;   
+}
+
+
+/** logo **/
+#header{
+    width: 650px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#content{
+    width:960px;
+    font-size: 22px;
+    margin: auto;
+    text-align: center;
+}
+
+.definition{
+    font-size: 40px;
+}
+
+.line{
+    border-top: 1px solid #FF00BF;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 30px;
+}
+
+.contenttitle{
+    color: #FF00BF;
+    font-size: 58px;      
+}
+
+#content img{
+    margin-bottom: 60px;
+    max-width: 100%;
+}
+
+#contact{
+    margin-top: 60px;
+    width:960px;
+    font-size: 22px;
+    margin: auto;
+}
+#contact p{
+    margin-top: 60px;
+}
+
+#contactform{
+    margin-top:60px;
+    border:none;
+}
+
+#contactform input{
+    padding: 20px;
+    width: 500px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: #848484;
+    margin: 0px; 
+}
+
+#contactform textarea{
+    padding: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+    color: #848484;
+    margin: 0px; 
+}
+
+#contactform button{
+    padding-bottom: 5px;
+    padding-top: -10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    height: 85px;
+    width: 540px;
+    background-color: #01DFD7;
+    margin: 0px; 
+}
+
+#contactform button:hover{
+    background-color: #FF00BF;
+    cursor: pointer;
+
+}
+
+#inbutton{
+    padding-top: 12px;
+    width:300px; 
+    margin:auto;
+}
+
+#inbuttontext{
+    padding-top: 6px;
+    float:left;
+}
+
+#inbutton img{
+    float:right;
+}
+
+#policy{
+    margin-top:60px;
+    margin-bottom:60px;
+    color: #FF00BF;
+}
+
+#policy:hover{
+    cursor: pointer;
+}
+
+#footer{
+    background-color: #D8D8D8;
+    width: 100%;
+    position: absolute;
+    margin-bottom: 0px;
+}
+
+#contactinfo{
+    margin: auto;
+    margin-top:60px;
+    width:960px;
+    font-size: 22px;
+}
+
+#contacttitle{
+    color: #FF00BF;
+    font-size: 58px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#contactinfo img{
+    margin-bottom:-16px;
+}
+
+#infomail{
+    color: #01DFD7;
+}
+
+#infomail:hover{
+    color: #FF00BF;
+    cursor: pointer;
+}
+
+#databy{
+    font-size: 18px;
+}
+
+@media (max-width: 480px) {
+    
+    #container{
+        width: 100%;
+    }
+    /** logo **/
+    #header{
+        margin: auto;
+        width: 300px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    #header img{
+        width: 300px;
+    }
+
+    #content{
+        width:300px;
+        font-size: 16px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .definition{
+        font-size: 18px;
+    }
+
+    .line{
+        border-top: 1px solid #FF00BF;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        margin-bottom: 30px;
+    }
+
+    .contenttitle{
+        color: #FF00BF;
+        font-size: 22px;      
+    }
+
+    #content img{
+        margin-bottom: 60px;
+        max-width: 100%;
+    }
+
+    #contact{
+        margin-top: 60px;
+        width:300px;
+        font-size: 16px;
+        margin: auto;
+    }
+    #contact p{
+        margin-top: 60px;
+    }
+
+    #contactform{
+        margin-top:60px;
+        border:none;
+    }
+
+    #contactform input{
+        padding: 20px;
+        width: 250px;
+        font-family: 'Comfortaa', cursive;
+        font-size: 16px;
+        text-align: center;
+        color: #848484;
+        margin: 0px; 
+    }
+
+    #contactform textarea{
+        padding: 20px;
+        width: 250px;
+        font-family: 'Comfortaa', cursive;
+        font-size: 16px;
+        text-align: center;
+        color: #848484;
+        margin: 0px; 
+    }
+
+    #contactform button{
+        padding-bottom: 5px;
+        padding-top: -10px;
+        font-family: 'Comfortaa', cursive;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        height: 85px;
+        width: 300px;
+        background-color: #01DFD7;
+        margin: 0px; 
+    }
+
+    #contactform button:hover{
+        background-color: #FF00BF;
+        cursor: pointer;
+
+    }
+
+    #inbutton{
+        padding-top: 12px;
+        width:300px; 
+        margin:auto;
+    }
+
+    #inbuttontext{
+        padding-top: 6px;
+        float:left;
+    }
+
+    #inbutton img{
+        float:right;
+    }
+
+    #policy{
+        margin-top:60px;
+        margin-bottom:60px;
+        color: #FF00BF;
+    }
+
+    #policy:hover{
+        cursor: pointer;
+    }
+
+    #footer{
+        background-color: #D8D8D8;
+        width: 100%;
+        position: absolute;
+        margin-bottom: 0px;
+    }
+
+    #contactinfo{
+        margin: auto;
+        margin-top:60px;
+        width:300px;
+        font-size: 22px;
+    }
+
+    #contacttitle{
+        color: #FF00BF;
+        font-size: 58px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    #contactinfo img{
+        margin-bottom:-16px;
+    }
+
+    #infomail{
+        color: #01DFD7;
+    }
+
+    #infomail:hover{
+        color: #FF00BF;
+        cursor: pointer;
+    }
+
+    #databy{
+        font-size: 18px;
+    }
+
+}
+
+
+/* estyles slider */
+
+.jssord20l, .jssord20r, .jssord20ldn, .jssord20rdn {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    overflow:hidden;
+}
+
+.jssord20l { 
+    background-position: -3px -33px; 
+    background: url(../images/left.png) no-repeat;
+}
+
+.jssord20r { 
+    background-position: -63px -33px; 
+    background: url(../images/right.png) no-repeat;
+}
+
+.jssord20l:hover { 
+    background-position: -65px -33px; 
+    background: url(../images/left_lila.png) no-repeat;
+}
+
+.jssord20r:hover { 
+    background-position: -183px -33px; 
+    background: url(../images/right_lila.png) no-repeat;
+}
+
+.jssord20ldn { 
+    background-position: -243px -33px; 
+}
+
+.jssord20rdn { 
+    background-position: -303px -33px; 
+}
